@@ -1,0 +1,17 @@
+{
+  "name": "default",
+  "type": "postgres",
+  "host": "db",
+  "port": 5432,
+  "username": "user",
+  "password": "1234",
+  "database": "serasa",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "migrations": ["dist/database/migrations/*{.ts,.js}"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  },
+  "logging": ["query"],
+  "seeds": ["src/database/seeds/**/*{.ts,.js}"],
+  "synchronize": false
+}

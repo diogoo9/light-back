@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1742513053684" clover="3.2.0">
+  <project timestamp="1742513053684" name="All files">
+    <metrics statements="375" coveredstatements="240" conditionals="46" coveredconditionals="18" methods="121" coveredmethods="34" elements="542" coveredelements="292" complexity="0" loc="375" ncloc="375" packages="21" files="23" classes="23"/>
+    <package name="errors">
+      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="AppError.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/errors/AppError.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="6" count="18" type="stmt"/>
+        <line num="7" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.cities.entities">
+      <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="city.entity.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/cities/entities/city.entity.ts">
+        <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.crops">
+      <metrics statements="25" coveredstatements="24" conditionals="6" coveredconditionals="5" methods="6" coveredmethods="6"/>
+      <file name="crops.service.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/crops/crops.service.ts">
+        <metrics statements="25" coveredstatements="24" conditionals="6" coveredconditionals="5" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="46" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="cond" truecount="1" falsecount="0"/>
+      </file>
+    </package>
+    <package name="modules.crops.entities">
+      <metrics statements="18" coveredstatements="11" conditionals="1" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="crop.entity.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/crops/entities/crop.entity.ts">
+        <metrics statements="18" coveredstatements="11" conditionals="1" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="38" count="6" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="55" count="6" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="61" count="6" type="stmt"/>
+        <line num="64" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="65" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.crops.repository">
+      <metrics statements="16" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="0"/>
+      <file name="crop.repository.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/crops/repository/crop.repository.ts">
+        <metrics statements="16" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.cultures">
+      <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+      <file name="cultures.service.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/cultures/cultures.service.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="40" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="45" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.cultures.entities">
+      <metrics statements="11" coveredstatements="7" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="culture.entity.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/cultures/entities/culture.entity.ts">
+        <metrics statements="11" coveredstatements="7" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="40" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.cultures.repository">
+      <metrics statements="16" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="0"/>
+      <file name="culture.repository.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/cultures/repository/culture.repository.ts">
+        <metrics statements="16" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.farm">
+      <metrics statements="29" coveredstatements="28" conditionals="5" coveredconditionals="5" methods="7" coveredmethods="6"/>
+      <file name="farm.service.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/farm/farm.service.ts">
+        <metrics statements="29" coveredstatements="28" conditionals="5" coveredconditionals="5" methods="7" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="22" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="54" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="63" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.farm.crops.cultures">
+      <metrics statements="13" coveredstatements="5" conditionals="1" coveredconditionals="0" methods="5" coveredmethods="1"/>
+      <file name="farm.crops.cultures.service.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/farm.crops.cultures/farm.crops.cultures.service.ts">
+        <metrics statements="13" coveredstatements="5" conditionals="1" coveredconditionals="0" methods="5" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.farm.crops.cultures.entities">
+      <metrics statements="17" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="farm.crops.culture.entity.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/farm.crops.cultures/entities/farm.crops.culture.entity.ts">
+        <metrics statements="17" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="6" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="61" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.farm.crops.cultures.repository">
+      <metrics statements="11" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="farm.crops.cultures.repository.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/farm.crops.cultures/repository/farm.crops.cultures.repository.ts">
+        <metrics statements="11" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.farm.crops.entities">
+      <metrics statements="18" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <file name="farm.crop.entity.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/farm.crops/entities/farm.crop.entity.ts">
+        <metrics statements="18" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="67" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.farm.entities">
+      <metrics statements="29" coveredstatements="21" conditionals="1" coveredconditionals="0" methods="10" coveredmethods="0"/>
+      <file name="farm.entity.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/farm/entities/farm.entity.ts">
+        <metrics statements="29" coveredstatements="21" conditionals="1" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="38" count="6" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="47" count="6" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="54" count="6" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="61" count="6" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="65" count="6" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="69" count="6" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="87" count="6" type="stmt"/>
+        <line num="90" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="91" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.farm.repository">
+      <metrics statements="16" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <file name="farm.repository.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/farm/repository/farm.repository.ts">
+        <metrics statements="16" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.producer">
+      <metrics statements="38" coveredstatements="38" conditionals="4" coveredconditionals="3" methods="12" coveredmethods="12"/>
+      <file name="producer.controller.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/producer/producer.controller.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+      </file>
+      <file name="producer.service.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/producer/producer.service.ts">
+        <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="3" methods="6" coveredmethods="6"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="50" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.producer.dto">
+      <metrics statements="13" coveredstatements="10" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="create.producer.dto.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/producer/dto/create.producer.dto.ts">
+        <metrics statements="10" coveredstatements="7" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+      <file name="update.producer.dto.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/producer/dto/update.producer.dto.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.producer.entities">
+      <metrics statements="12" coveredstatements="9" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="producer.entity.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/producer/entities/producer.entity.ts">
+        <metrics statements="12" coveredstatements="9" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="30" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.producer.repository">
+      <metrics statements="16" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
+      <file name="producer.repository.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/producer/repository/producer.repository.ts">
+        <metrics statements="16" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.states.entities">
+      <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="state.entity.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/modules/states/entities/state.entity.ts">
+        <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="validators">
+      <metrics statements="35" coveredstatements="4" conditionals="20" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="validator.docNumber.ts" path="/home/diogo/developer/siprysoft/serasa/back/src/validators/validator.docNumber.ts">
+        <metrics statements="35" coveredstatements="4" conditionals="20" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="59" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="65" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="76" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="82" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="89" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="96" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="103" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

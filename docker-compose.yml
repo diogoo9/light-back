@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres:16-bullseye
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_USER: user
+      POSTGRES_DB: serasa
+    volumes:
+      - pgdata:/data/postgres
+    ports:
+      - 5432:5432
+  app:
+    build: .
+    container_name: serasa
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/usr/local/app/serasa
+    links:
+      - db
+    depends_on:
+      - db
+
+volumes:
+  pgdata:
+    driver: local
